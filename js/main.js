@@ -20,11 +20,11 @@ function validateForm(){ 		//burbuja(span) mensaje error por vacios
 		// return false;
 	}
 	if(contrasena.length < 6 || contrasena == "123456" || contrasena == "098765" ){
-		showError('#input-password','Favor ingrese una contraseña de igual o mayor a 6 digitos y que no sea un 123456 o 098765')
+		showError('#input-password','Favor ingrese una contraseña de igual o mayor a 6 digitos y que no sea un 123456 o 098765');
 		// return false;
 	}
 	if(seleccion =='0'){
-		showError('select','Seleccione un modelo')
+		showError('select','Seleccione un modelo');
 		// return false;
 	}
 }
